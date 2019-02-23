@@ -1,0 +1,285 @@
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #dddddd;
+    position: relative;
+}
+
+
+button {
+    margin: 15px;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+h2 {
+    color: #4aaaa5;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+.tab {
+    float: right;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #777777;
+    font-size: 16px;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 640px) {
+    .tab {
+      text-align: center;
+      float: left;
+
+    }
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+      height: 100px;
+      text-align: center;
+    }
+}
+
+hr { 
+    height:1px; 
+    color: #dddddd;
+    margin-right: 15px; 
+    margin-left: 15px;
+}
+    
+input {
+    width: 930px;
+    margin: 0 auto;
+    margin-left:15px;
+}
+
+@media only screen and (max-width: 768px) {
+    input {
+      width: 90%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    input {
+        width: 90%;
+    }
+}
+#messagebox {
+    height: 100px;
+}
+
+#subheader {
+    width: 960px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+  @media only screen and (max-width: 980px) {
+    #subheader {
+      width: 960px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #subheader {
+      width: 100%;
+    }
+}
+  @media only screen and (max-width: 640px) {
+    #subheader {
+      width: 100%;
+    }
+}
+
+#profilePic {
+    width: 256px;
+    height: 192px;
+    float: left;
+    padding: 15px;
+}
+@media only screen and (max-width: 640px) {
+    #profilePic {
+      float: none;
+    }
+}
+
+.galleryphoto {
+    width: 300px;
+    height: 200px;
+    float:left;
+
+}
+@media only screen and (max-width: 640px) {
+    .galleryphoto {
+        float: none;
+        margin: 0 auto;
+    }
+  }
+
+#nametag {
+    background-color: #4aaaa5;
+    float: left;
+    font-size: 24px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 30px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 640px) {
+    #nametag {
+      width: 100%;
+    text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    #tabContainerSmall {
+     
+    background-color: #ffffff;
+    text-align: center;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .tabSmallScreen {
+        display: inline-block;
+        margin: 0 auto;
+    }
+  }
+
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 980px) {
+    .content {
+      width: 960px;
+      float: left;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .content {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+
+@media only screen and (max-width: 640px) {
+    .content {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+
+#gallery {
+    width: 960px;
+    height: 800px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 640px) {
+    #gallery {
+      width: 100%;
+      height: 1240px;
+      margin: 10px;
+    }
+  }
+
+.container {
+    height: 230px;
+    width: 330px;
+    position: relative;
+    float: left;
+  }
+  @media only screen and (max-width: 640px) {
+    .container {
+     float:none;
+      margin: 0 auto;
+    }
+  }
+
+
+  .image {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 200px;
+    width: 300px;
+  }
+  .photodescription {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    width: 270px;
+    margin: 15px;
+    bottom: 25px;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+}
+
+#galleryfooter {
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+    position: relative;
+    bottom: 0;
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+}
+
+p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 2;
+    padding: 15px; 
+    margin: 0 auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 640px) {
+    img {
+      float: none;
+    }
+}
